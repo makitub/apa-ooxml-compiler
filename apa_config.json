@@ -1,0 +1,43 @@
+{
+  "documento": {
+    "fonte_padrao": "Arial",
+    "tamanho_padrao_pt": 11,
+    "cor_hiperlinks_hex": "000000",
+    "remover_sublinhado_links": true
+  },
+  "sumario": {
+    "identificadores_secao": ["sumário", "sumario", "table of contents", "toc"],
+    "niveis": {
+      "1": { "negrito": true,  "italico": false },
+      "2": { "negrito": false, "italico": false },
+      "3": { "negrito": false, "italico": true }
+    }
+  },
+  "listas_descritivas": {
+    "ativar_normalizacao": true,
+    "marcador": "• ",
+    "rotulo_negrito": true,
+    "recuo_esquerda_dxa": 720,
+    "recuo_primeira_linha_dxa": 360,
+    "padrao_regex": "^([A-ZÀ-Ú][^:\\n]+):\\s*(.+)$"
+  },
+  "referencias": {
+    "identificadores_cabecalho": ["referências", "referencias", "references", "bibliography"],
+    "recuo_frances_dxa": 720,
+    "espacamento_linhas_twips": 480,
+    "quebra_pagina_obrigatoria": true,
+    "obras_autonomas_italico": [
+      "Managing quality: The strategic and competitive edge",
+      "The art of software testing",
+      "Engenharia de software: Uma abordagem profissional",
+      "Engenharia de software"
+    ],
+    "padroes_normas_tecnicas": [
+      {
+        "gatilho": "ISO/IEC",
+        "titulo_canonico": "Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models",
+        "padrao_busca": "Systems and software engineering.*?System and software quality models"
+      }
+    ]
+  }
+}
